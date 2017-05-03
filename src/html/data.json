@@ -1,10 +1,10 @@
 {
-  "siteName": "Kickstarter-static",
+  "siteName": "Birthday Finder",
   "metaAuthor": "Lee Marsden",
 
   "pages": {
     "index": {
-      "title": "Playings - Home"
+      "title": "Birthday-Finder"
     }
   }
 }

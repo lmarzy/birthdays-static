@@ -1,2 +1,2 @@
-# kickstarter-static
-Kickstarter for a simple static site build
+# Birthday Finder
+Static App to find a family members birthday

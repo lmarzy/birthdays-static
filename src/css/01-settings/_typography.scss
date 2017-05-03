@@ -1,12 +1,8 @@
 // 01-SETTINGS/TYPOGRAPHY
 
-// $font-url              : '';
+$font-url              : 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
 
 // FONT SETTINGS (GLOBAL)
-$font-family           : sans-serif;
+$font-family           : 'Open Sans', sans-serif;
 $font-size             : 100%;
 $line-height           : $line-height-px / $font-size-px;
-
-// FONT FAMILY ALTERNATIVES
-$font-family-alt       : Cambria, Georgia, Times, "Times New Roman";
-$font-family-code      : Monaco, Courier New, monospace;

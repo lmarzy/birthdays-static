@@ -1,9 +1,9 @@
 {
-  "name": "kickstarter-static",
+  "name": "Birthday-Finder",
   "version": "1.0.0",
-  "description": "Kickstarter for a simple static site build",
+  "description": "Static App to find a family members birthday",
   "main": "index.js",
-  "repository": "https://github.com/lmarzy/kickstarter-static.git",
+  "repository": "https://github.com/lmarzy/birthdays-static.git",
   "author": "Lee Marsden",
   "license": "MIT",
   "scripts": {

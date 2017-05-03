@@ -1,21 +1,20 @@
 // 03/BASE - RESET
 
-body,
-blockquote,
-figure {
+body {
   margin: 0;
 }
 
 h1,
 h2,
-h3,
-h4,
 p,
 dl,
-ol,
 ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
 }
 
 dd {

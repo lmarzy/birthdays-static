@@ -1,5 +1,10 @@
 // 07/COMPONENTS - SITE-HEADER
 
-/* stylelint-disable */
-.c-siteHeader {}
-/* stylelint-enable */
+.c-siteHeader {
+  padding: 0 $gutter;
+  border-bottom: 1px solid $borders;
+
+  &_logo {
+    @include vr(14px, 2, 0);
+  }
+}

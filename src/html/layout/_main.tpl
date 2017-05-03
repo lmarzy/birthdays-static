@@ -14,14 +14,18 @@
 </head>
 <body>
 
-  {% include "partials/_site-header.tpl" %}
+  <div class="l-container">
 
-  <main class="c-main">
-  	{% block content %}{% endblock %}
-  </main>
-  <!-- !END main.l-main -->
+    {% include "partials/_site-header.tpl" %}
 
-  {% include "partials/_site-footer.tpl" %}
+    <main class="c-main">
+    	{% block content %}{% endblock %}
+    </main>
+    <!-- !END main.l-main -->
+
+    {% include "partials/_site-footer.tpl" %}
+
+  </div>
 
   <script src="js/main.js"></script>
 </body>

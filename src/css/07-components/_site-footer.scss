@@ -1,5 +1,6 @@
 // 07/COMPONENTS - SITE-FOOTER
 
-/* stylelint-disable */
-.c-siteFooter {}
-/* stylelint-enable */
+.c-siteFooter {
+  padding: 0 $gutter;
+  border-top: 1px solid $borders;
+}

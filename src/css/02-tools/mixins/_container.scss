@@ -4,9 +4,14 @@
 // @include container;
 
 @mixin container {
-  padding-left: $rhythm / 2;
-  padding-right: $rhythm / 2;
+  width: 100%;
   max-width: $max-width;
   margin-left: auto;
   margin-right: auto;
+  background: white;
+
+  @include bp(20) {
+    border-radius: 6px;
+    box-shadow: 0 0 6px 4px rgba(black, 0.1);
+  }
 }
