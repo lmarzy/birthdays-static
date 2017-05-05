@@ -1,0 +1,17 @@
+// 07/COMPONENTS - RESULT
+
+.c-result {
+  display: flex;
+  flex-wrap: wrap;
+
+  dt,
+  dd {
+    flex: 1 0 50%;
+    padding: rem(4px) 0;
+  }
+
+  dd {
+    text-align: right;
+    color: darken($text, 10);
+  }
+}

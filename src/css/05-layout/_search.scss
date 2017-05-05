@@ -1,0 +1,9 @@
+// 05/LAYOUT - SEARCH
+
+.l-search {
+  padding: rem(36px) $gutter;
+
+  &.l-search-results .l-search_select {
+    margin-bottom: $rhythm;
+  }
+}

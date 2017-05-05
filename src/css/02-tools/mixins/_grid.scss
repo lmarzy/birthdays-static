@@ -6,7 +6,6 @@
 @mixin grid() {
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
-  grid-gap: $gutter;
 }
 
 // This will loop through each breakpoint and generate a new class to be added to the markup to show how much that elements spans at what breakpoint

@@ -1,9 +1,10 @@
-// 06/OBJECTS - INPUTS
+// 06/OBJECTS - SELECT
 
-.o-input {
+.o-select {
   width: 100%;
   height: rem(36px);
   padding-left: $gutter / 2;
-  padding-right: $gutter / 2;
   border: 1px solid $borders;
+  border-radius: 6px;
+  color: $brand-a;
 }
