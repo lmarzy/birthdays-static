@@ -1,8 +1,12 @@
 // 07/COMPONENTS - RESULT
 
 .c-result {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
+
+  &.isVisible {
+    display: flex;
+  }
 
   dt,
   dd {

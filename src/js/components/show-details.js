@@ -22,5 +22,6 @@ export default function(data) {
       <dt>Days until next birthday</dt>
       <dd>${daysUntilNextBirthday(person.dob)}</dd>`;
     $result.innerHTML = html;
+    $result.classList.add('isVisible');
   });
 }
