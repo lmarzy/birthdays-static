@@ -7,7 +7,12 @@
   dt,
   dd {
     flex: 1 0 50%;
-    padding: rem(4px) 0;
+    margin-bottom: rem(8px);
+
+    &:last-child,
+    &:nth-last-child(2) {
+      margin: 0;
+    }
   }
 
   dd {

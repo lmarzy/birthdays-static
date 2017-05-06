@@ -1,0 +1,18 @@
+// 07/COMPONENTS - THIS MONTH LIST
+
+.c-thisMonthList {
+  list-style: none;
+
+  &_person {
+    display: flex;
+    padding: rem(12px);
+
+    &:nth-child(odd) {
+      background: lighten($brand-b, 10);
+    }
+  }
+
+  &_days {
+    margin-left: auto;
+  }
+}

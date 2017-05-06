@@ -1,7 +1,13 @@
-export default function(str) {
+export default function(input) {
   'use strict';
 
-  const firstLetter = str.charAt(0).toUpperCase();
-  const restOfLetters = str.substr(1).toLowerCase();
-  return firstLetter + restOfLetters;
+  if (typeof input !== 'string') return null;
+
+  const words = input.split(' ');
+
+  const titleCaseWords = words.map(word => {
+    return word[0].toUpperCase() + word.slice(1).toLowerCase();
+  });
+
+  return titleCaseWords.join(' ');
 }

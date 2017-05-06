@@ -1,0 +1,23 @@
+// 07/COMPONENTS - THIS MONTH
+
+.c-thisMonth {
+  height: 100%;
+  background: lighten($brand-b, 18);
+  border-top: 1px solid $borders;
+
+  &_title {
+    padding: rem(8px);
+    background: white;
+    border-bottom: 1px solid $borders;
+    text-align: center;
+  }
+
+  @include bp(20) {
+    border-top: none;
+    border-left: 1px solid $borders;
+
+    &_title {
+      text-align: left;
+    }
+  }
+}

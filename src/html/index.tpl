@@ -14,7 +14,7 @@
     </div>
 
     <div class="l-grid_span12 l-grid_span4@bp20">
-      2
+      {% include "partials/_this-month.tpl" %}
     </div>
 
   </div>

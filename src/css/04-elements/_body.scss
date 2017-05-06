@@ -2,12 +2,11 @@
 
 body {
   min-height: 100vh;
-  border: 6px solid white;
 
   @include bp(10) {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 18px;
+    border: 18px solid white;
   }
 }
