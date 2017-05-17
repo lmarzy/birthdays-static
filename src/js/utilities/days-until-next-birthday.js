@@ -14,7 +14,9 @@ export default function(input) {
   const daysRemaining = Math.ceil((birthdayThisYear.getTime() - today.getTime()) / oneDay);
 
   if (daysRemaining > 0) {
-    return daysRemaining;
+    return daysRemaining + ' days';
+  }else if(daysRemaining === 0) {
+    return 'It\'s Today';
   }else {
     const daysInYear = 365;
     const positiveDays = Math.abs(daysRemaining);

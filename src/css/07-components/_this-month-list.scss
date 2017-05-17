@@ -1,7 +1,12 @@
 // 07/COMPONENTS - THIS MONTH LIST
 
 .c-thisMonthList {
+  display: none;
   list-style: none;
+
+  &.hasBirthdays {
+    display: block;
+  }
 
   &_person {
     display: flex;
